@@ -1,4 +1,4 @@
-module(clock, rd_en, wr_en, full, empty, data_in, data_out, rst);
+module sync_fifo(clock, rd_en, wr_en, full, empty, data_in, data_out, rst);
 
 #Constants
 parameter WIDTH = 16;
